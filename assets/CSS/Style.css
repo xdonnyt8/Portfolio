@@ -1,0 +1,15 @@
+body{
+background-image: url(https://cdnp.iconscout.com/photo/free/preview/empty-wooden-board-top-table-in-front-of-counter-coffee-shop-blurred-background-perspective-wood-in-blurred-coffee-cafe-background-for-photo-montage-product-display-or-mock-up-your-product-1463118-1239425.jpg); 
+background-size: cover;
+background-attachment: fixed;
+}
+
+h{
+    color: black;
+    font-weight: bolder;
+}
+
+h1{
+    font-weight: bolder;
+    
+}
