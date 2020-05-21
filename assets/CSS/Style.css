@@ -1,15 +1,45 @@
 body{
-background-image: url(https://cdnp.iconscout.com/photo/free/preview/empty-wooden-board-top-table-in-front-of-counter-coffee-shop-blurred-background-perspective-wood-in-blurred-coffee-cafe-background-for-photo-montage-product-display-or-mock-up-your-product-1463118-1239425.jpg); 
-background-size: cover;
-background-attachment: fixed;
-}
+/* background-image: url(https://www.myclickmagazine.com/wp-content/uploads/2018/07/flatlay-tile-postcards.jpg);  */
+background-repeat: no-repeat;
+background-color: peachpuff;
 
-h{
-    color: black;
-    font-weight: bolder;
+
+}
+/* picture
+.myPic{
+
+    text-align: center;
+    display: block;
+} */
+
+.aBody{
+padding-right: 10%;
+padding-left: 10%;
+}
+.container_DT{
+    padding-left: 10%;
+    padding-right: 10%;
+    border: orangered solid;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.userName{
+background-color: orange;
+margin-left: 10%;
 }
 
 h1{
     font-weight: bolder;
     
 }
+h2{
+    margin-top: 20px;
+}
+img{
+    float: left;
+    padding-right: 30px;
+}
+
+
+
