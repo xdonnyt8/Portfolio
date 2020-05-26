@@ -19,16 +19,21 @@ padding-left: 10%;
 .container_DT{
     padding-left: 10%;
     padding-right: 10%;
-    border: orangered solid;
-    background-color: white;
+    background-color: lightgray;
     margin-left: 10%;
     margin-right: 10%;
+}
+.container_contact{
+    background-color: grey;
 }
 .userName{
 background-color: orange;
 margin-left: 10%;
 }
 
+hr{
+    background-color: black;
+}
 h1{
     font-weight: bolder;
     
@@ -42,5 +47,38 @@ img{
 }
 
 
+ul{
+    margin-right: 10%;
+}
+.navbar-toggler{
+    margin-right: 10%;
+}
 
+@media only screen and (max-width: 400px) {
+    body {
+      background-color: lightgreen;
+      
+    }
+
+      
+  }
+@media only screen and (min-width: 400px) {
+    body {
+      background-color: lightslategrey;
+    }
+    img {
+
+    }
+  }
+
+@media only screen and (min-width: 640px) {
+    body {
+      background-color: lightcoral;
+    }
+  }
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 
