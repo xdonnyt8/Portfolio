@@ -5,12 +5,7 @@ background-color: peachpuff;
 
 
 }
-/* picture
-.myPic{
 
-    text-align: center;
-    display: block;
-} */
 
 .aBody{
 padding-right: 10%;
@@ -23,9 +18,9 @@ padding-left: 10%;
     margin-left: 10%;
     margin-right: 10%;
 }
-.container_contact{
+/* .container_contact{
     background-color: grey;
-}
+} */
 .userName{
 background-color: orange;
 margin-left: 10%;
@@ -42,11 +37,12 @@ h2{
     margin-top: 20px;
 }
 img{
+  position: relative;
     float: left;
     margin-right: 10px;
 }
-p1{
-  padding-left: ;
+p{
+  text-indent: 50px;
 }
 
 ul{
@@ -56,18 +52,15 @@ ul{
     margin-right: 10%;
 }
 
-@media only screen and (max-width: 400px) {
-    body {
-      background-color: lightgreen;
-      
-    }
+footer {
+  text-align: center;
+  background-color: khaki;
+}
+.centerPort{
 
-  }
-@media only screen and (min-width: 400px) {
-    body {
-      background-color: lightslategrey;
-    }
-  }
+}
+
+
 
 @media only screen and (min-width: 640px) {
     body {
@@ -75,9 +68,34 @@ ul{
 
     }
   }
+  @media only screen and (max-width: 640px) {
+    p{
+      font-weight: bolder;
+      font-size: 20px;
+    }
+  }
 @media only screen and (min-width: 768px) {
     body {
       background-color: lightblue;
     }
+    
   }
+  @media only screen and (max-width: 768px) {
+    p{
+      font-weight: bold;
 
+    }
+
+
+  }
+  @media only screen and (min-width: 980px) {
+    body {
+      background-color: lightyellow;
+    }
+
+  }
+  @media only screen and (max-width: 980px) {
+    p{
+
+    }
+  }
