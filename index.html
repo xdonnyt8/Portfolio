@@ -21,7 +21,12 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="./assets/javascripts/js.js"></script>
+
 </head>
 
 <body>
@@ -40,12 +45,12 @@
                 <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                     <ul class="navbar-nav ">
                         <li class="nav-item">
-                            <a class="nav-link" href="assets/tabs/contact.html">
+                            <a class="nav-link" href="./assets/contact.html">
                                 <h>My Contacts</h>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="assets/tabs/portfolio.html">
+                        <li class="nav-item" id="portfolio">
+                            <a class="nav-link" href="./assets/portfolio.html">
                                 <h>Portfolio</h>
                             </a>
                         </li>
@@ -56,6 +61,15 @@
 
     </div>
 
+    <div class="modal show bd-example-modal-lg">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-body text-center backgroundImage">
+            <h1>Welcome To My Page!</h1>
+            <br><br><br><br><br><br><br><br><br><br>
+            <h6>Click anywhere to close out this modal</h6>
+          </div>
+        </div>
+      </div>
 
     <div class="container_DT">
 
@@ -73,7 +87,7 @@
                         luctus massa lacus id urna. Vestibulum fringilla nec purus vitae blandit. Aliquam consequat nunc
                         non justo sodales suscipit. Quisque ex lacus, tempor ut felis elementum, euismod dapibus augue.
                         Proin sodales ornare massa vitae malesuada. Phasellus mollis in odio vel consequat. Aliquam
-                        lobortis eros in placerat facilisis. 
+                        lobortis eros in placerat facilisis.
                     </p>
                     <p>
                         luctus lobortis ex nec dignissim. Curabitur id ultrices
@@ -96,12 +110,11 @@
     </div>
 
 
-            <footer>
+    <footer>
 
-                &copy;Copyright By Don Tran
+        &copy;Copyright By Don Tran
 
-            </footer>
-
+    </footer>
 </body>
 
 </html>
