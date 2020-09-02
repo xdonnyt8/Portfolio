@@ -1,7 +1,7 @@
 body{
 /* background-image: url(https://www.myclickmagazine.com/wp-content/uploads/2018/07/flatlay-tile-postcards.jpg);  */
 background-repeat: no-repeat;
-background-color: peachpuff;
+background-color:white;
 background-attachment: fixed;
 }
 
@@ -16,26 +16,34 @@ background-attachment: fixed;
   margin-bottom: auto;
 
 }
+#randoQuotes{
+  margin: auto;
+  text-align: center;
+}
 
+video{
+  width: 600px;
+  height: 250px;
+  max-width: 700px;
+  max-height: 2910px;
+  padding: 1px;
+  margin: 0px;
+
+}
 
 .aBody{
 padding-right: 10%;
 padding-left: 10%;
 }
-.container_DT{
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: lightgray;
-    margin-left: 10%;
-    margin-right: 10%;
+.container{
+
+    background-color: skyblue;
+
 }
 /* .container_contact{
     background-color: grey;
 } */
-.userName{
-background-color: orange;
-margin-left: 10%;
-}
+
 
 hr{
     background-color: black;
@@ -65,7 +73,7 @@ ul{
 
 footer {
   text-align: center;
-  background-color: khaki;
+  background-color: grey;
 }
 .backgroundImage{
 background-image: url(https://images.unsplash.com/photo-1545852528-fa22f7fcd63e?ixlib=rb-1.2.1&w=1000&q=80);
@@ -79,7 +87,7 @@ font-weight: bolder;
 
 @media only screen and (min-width: 640px) {
     body {
-      background-color: lightcoral;
+
 
     }
   }
@@ -91,7 +99,7 @@ font-weight: bolder;
   }
 @media only screen and (min-width: 768px) {
     body {
-      background-color: lightblue;
+
     }
     
   }
@@ -105,7 +113,7 @@ font-weight: bolder;
   }
   @media only screen and (min-width: 980px) {
     body {
-      background-color: lightyellow;
+
     }
 
   }

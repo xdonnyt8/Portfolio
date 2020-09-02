@@ -19,85 +19,155 @@
 
     <link rel="stylesheet" href="../assets/CSS/style.css">
 
-<script src="../assets/javascripts/portfolio.js"></script>
+    <script src="../assets/javascripts/portfolio.js"></script>
 
 </head>
 
 <body>
 
-    <div class="row">
-        <div class="col-sm-12">
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <div class="userName">
-                    <a class="navbar-brand" href="../index.html">
-                        <h1>Don Tran</h1>
-                    </a>
+    <div class="col">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="../index.html">
+                <h1>Don Tran</h1>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">
+                            <h>About Me</h>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <h>Contact Me</h>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <div class="text-center">
+                    <div id="videoCarosel" class="carousel slide align-middle" data-ride="carousel"
+                        data-interval="5000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <video autoplay loop muted class="d-block w-100" alt="StockVideoFootage"
+                                    src="https://i.imgur.com/XQp0pXo.mp4" SameSite=None Secure></video>
+                                <div class="container">
+                                    <div class="carousel-caption text-center">
+                                        <h3>Innovate!</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <video autoplay loop muted class="d-block w-100" alt="StockVideoFootage"
+                                    src="https://i.imgur.com/Du3FFeZ.mp4" SameSite=None Secure></video>
+                                <div class="container">
+                                    <div class="carousel-caption text-center">
+                                        <h3>Create!</h3>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <video autoplay loop muted class="d-block w-100" alt="StockVideoFootage"
+                                    src="https://imgur.com/K5lBzkP.mp4" SameSite=None Secure></video>
+                                <div class="container">
+                                    <div class="carousel-caption text-center">
+                                        <p>Adapt!</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </div>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">
-                                <h>About Me</h>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">
-                                <h>Contact Me</h>
-                            </a>
-                        </li>
-                    </ul>
+
+        <!-- Button trigger modal -->
+        <div class="text-center">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                List of Projects
+            </button>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="exampleModalLongTitle">Projects</h1>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h4>DateMatch</h4>
+                                <h6><a href="https://github.com/xdonnyt8/DateMatch">Github Link</a></h6>
+                                <h6><a href="https://mighty-coast-42770.herokuapp.com/">Deployed Link</a></h6>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>FitnessGuru</h4>
+                                <h6><a href="https://github.com/xdonnyt8/Project1">Github Link</a></h6>
+                                <h6><a href="https://xdonnyt8.github.io/Project1/">Deployed Link</a></h6>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>Password Generator</h4>
+                                <h6><a href="https://github.com/xdonnyt8/passwordGenerator">Github Link</a></h6>
+                                <h6><a href="https://xdonnyt8.github.io/passwordGenerator/">Deployed Link</a></h6>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>Burgers!</h4>
+                                <h6><a href="https://github.com/xdonnyt8/burgers">Github Link</a></h6>
+                                <h6><a href="https://calm-tundra-57368.herokuapp.com/">Deployed Link</a></h6>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>Note Taker</h4>
+                                <h56><a href="https://github.com/xdonnyt8/NoteTaker">Github Link</a></h6>
+                                    <h6><a href="https://shrouded-shore-07367.herokuapp.com/">Deployed Link</a></h6>
+                            </div>
+                            <div class="col-sm-4">
+                                <h4>Team Generator</h4>
+                                <h6><a href="https://github.com/xdonnyt8/Team_generator">Github Link</a></h6>
+                                <h6>There is no deployed link because this application is run on just node in the
+                                    console</h6>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-            </nav>
+            </div>
         </div>
-    </div>
 
-<!-- 
-    <div class="text-center" style="margin-top: 50px;" id="start">
-        <button class="startNow">Start Demo!</button>
-    </div>
-    
-    <div class="container mainPort"></div> -->
 
-<!-- Button trigger modal -->
-<div class="text-center">
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-    Start Demo
-  </button>
-</div>
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title" id="exampleModalLongTitle">Projects</h1>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <h3><a href="https://xdonnyt8.github.io/passwordGenerator/">Password Generator</a></h3>
-          <h4>This is a password generator that allows you to make a random password based on different parameters</h4>
-          <hr>
-          <h3><a href="https://xdonnyt8.github.io/Project1/">Fitness GURU</a></h3>
-          <h4>This is fitness website that allow you to select a muscle and it will give you some workout exercises(still a work in progress)</h4>
-          <hr>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
-    <footer class="hide">
 
-        &copy;Copyright By Don Tran
+        <footer class="footer fixed-bottom">
 
-    </footer>
+            &copy;Copyright By Don Tran
+
+        </footer>
 </body>
 
 </html>
